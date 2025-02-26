@@ -109,14 +109,17 @@
 
 .aligned-text {
   align-self: flex-start;
+  letter-spacing: 20px;
 }
 
 .aligned-text_center {
   align-self: center;
+  letter-spacing: 20px;
 }
 
 .aligned-text_right {
   align-self: flex-end;
+  letter-spacing: 20px;
 }
 
 /* Стили для описания первой секции */
@@ -132,8 +135,9 @@
   font-weight: 400;
   font-size: 22px;
   color: #fff;
-  word-spacing: 32px;
+  word-spacing: 20px;
   line-height: 28px;
+  text-transform: uppercase;
 }
 
 .bet-button {
@@ -242,6 +246,7 @@
   font-size: 20px;
   line-height: 23.48px;
   text-underline-offset: 5px;
+  padding-left: 40px;
 }
 
 /* Стили для контента третьей секции */
@@ -253,7 +258,7 @@
   "about__logo about__title"
   ". about__column";
   gap: 8px 72px;
-  padding: 0 24px 180px;
+  padding: 35px 24px 180px 71px;
 }
 
 /* Стили для логотипа третьей секции */
