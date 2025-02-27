@@ -15,20 +15,26 @@
       <!--Навигация сайта-->
       <nav class="header__menu">
         <ul class="header__links-list">
-          <li class="header__links-list-item">главная</li>
-          <li class="header__links-list-item">посмотреть лоты</li>
-          <li class="header__links-list-item">об аукционе</li>
+          <li class="header__links-list-item header__links-list-item_active">
+            <a class="header__link">главная</a>
+          </li>
+          <li class="header__links-list-item">
+            <a class="header__link">посмотреть лоты</a>
+          </li>
+          <li class="header__links-list-item">
+            <a class="header__link">об аукционе</a>
+          </li>
         </ul>
       </nav>
       <!--Логотип сайта-->
-      <a href="#0" class="header__link">
+      <a class="header__link-logo">
         <img src="./images/logo-black.svg" alt="Логотип" class="header__logo-image">
       </a>
       <!--Контактная информация-->
       <address class="address">
-        <a href="tel:+99995555555" class="header__address">+9 999 555 5555</a>
-        <a href="info@sobaka.ge" class="header__address">info@sobaka.ge</a>
-        <p class="header__address-text">наб. Принсенграхт 263-<br> 265, Амстердам</p>
+        <a href="tel:+99995555555" class="address__link">+9 999 555 5555</a>
+        <a href="mailto:info@sobaka.ge" class="address__link">info@sobaka.ge</a>
+        <p class="address__link address__link_text">наб. Принсенграхт 263-<br> 265, Амстердам</p>
       </address>
     </header>
     <!--Основной контент-->
@@ -39,14 +45,14 @@
         <div class="overlay"></div>
         <!--Заголовок первой секции-->
         <h1 class="cover__title">
-          <span class="aligned-text">ОНО</span>
-          <span class="aligned-text_center">ТЕБЕ</span>
-          <span class="aligned-text_right">НАДО</span>
+          <p class="aligned-text">оно</p>
+          <p class="aligned-text aligned-text_center">теб<span class="aligned-text_last">е</span></p>
+          <p class="aligned-text aligned-text_right">над<span class="aligned-text_last">о</span></p>
         </h1>
         <!--Описание первой секции-->
         <div class="cover__description">
           <p class="cover__description-text">Аукцион вещей, в которые никто не верил</p>
-          <button class="bet-button">Сделать ставку </button>
+          <button class="bet-button" type="button">Сделать ставку </button>
         </div>
       </section>
       <!--Контент второй секции-->
@@ -112,15 +118,15 @@
     <footer class="footer">
       <!--Контактная информация-->
       <address class="address address__left">
-        <a href="tel:+99995555555" class="footer__address">+9 999 555 5555</a>
-        <a href="info@sobaka.ge" class="footer__address">info@sobaka.ge</a>
-        <p class="footer__address-text">наб. Принсенграхт 263-265,<br>Амстердам</p>
+        <a href="tel:+99995555555" class="address__link">+9 999 555 5555</a>
+        <a href="info@sobaka.ge" class="address__link">info@sobaka.ge</a>
+        <p class="address__link address__link_text">наб. Принсенграхт 263-265,<br>Амстердам</p>
       </address>
       <!--Навигация сайта в подвале-->
       <nav class="footer__menu"> 
         <ul class="footer__menu-list">
           <li class="footer__menu-list-item">
-            <a href="#0" class="footer__menu-link_active">главная</a>
+            <a href="#0" class="footer__menu-link footer__menu-link_active">главная</a>
           </li>
           <li class="footer__menu-list-item">
             <a href="#0" class="footer__menu-link">посмотреть лоты</a>
