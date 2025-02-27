@@ -23,8 +23,11 @@
   text-decoration: underline;
 }
 
-.header__links-list-item_active {
+.header__links-list-item:nth-child(1) {
   list-style-type: none;
+}
+
+.header__links-list-item_active {
   text-decoration: none;
 }
 
@@ -182,6 +185,7 @@ text-decoration: none;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
+  gap: 25px;
   list-style: none;
 }
 
